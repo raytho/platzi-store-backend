@@ -11,9 +11,6 @@ node_js:
 git:
   depth: 3
 
-script:
-  - yarn build
-
 notifications:
   email:
     reciepients:
