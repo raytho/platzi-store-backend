@@ -12,7 +12,7 @@ git:
   depth: 3
 
 script:
-  - yarn test
+  - yarn build
 
 notifications:
   email:
@@ -25,7 +25,7 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: apiKey # desde heroku
+  api_key: a3ff2f61-6805-4729-9535-03dcc3235dff
   app: platzi-store1-back
   on:
     repo: raytho/platzi-store-backend
